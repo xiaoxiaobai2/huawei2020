@@ -1,0 +1,29 @@
+begin.cpp      		 	28.2567    	 (5_7)
+updateAns_multi.cpp    	 	9.7563   		 (5_9)
+updateAns_multi.cpp	 	59.7981		（5_9)
+updateAns_multi_global.cpp   	 	57.9166		（5_10）	
+updateAns_multi_global_up.cpp  	53.6114		(5_10_1)8
+updateAns_multi_global_up.cpp  	54.9465		(5_10_1)4
+updateAns_multi_for.cpp  	    	56.2727 		(5_10_2)
+struct.cpp	（node_error）		error		(5_11)
+struct.cpp				50.1287		(5_11_1)
+struct33.cpp			33.0955		(5_11_2)
+struct33_up.cpp			35.7148		(5_11_3)
+save(fwrite)   0.47927s		40.5075		(5_11_4)
+baseline.cpp			9.8854		(5_12)
+baseline.cpp(rename_global_up)	8.8611		(5_12_1)
+baseline_for 			8.8512		(5_12_2)
+min_max	（8）			8.8256		(5_12_3)
+for_up	(dfs优化剪枝)		error		(5_12_4)
+get_index				9.0425		(5_13)
+min_max (4)			9.6981		5_12_3
+can_back				8.5852		5_13_1
+baseline_for_e_up			12.5209		5_13_2
+dense_multi (64)			8.5295	
+dense_multi (k,64)（base）		8.3766		5_14
+
+multi_memcpy      (fwrite）		6.7103		5_15 
+multi memcpy_mmap(base)		6.6108		5_15_1**********************最快**********
+head_pre				7.1775		5_15_2  	比6.6108慢
+multi memcpy_write()				5_15_3
+

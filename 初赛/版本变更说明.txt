@@ -1,0 +1,14 @@
+版本变化：
+solo 34 
+	baseline 基础上增加了 dfs3+4,线上7.2s
+
+update3_fprintf
+	优化传参，改写文件为fprintf  线上4.3
+removeSort   
+	按位置写ans,去掉path结构体排序（4.3s 到 3.4s ）
+multi_34
+	多线程 3.4s->3.0s
+multi_fwrite
+	成功的 fwrite 3.0s - 1.06S
+ui_string
+	该id-ui映射为 id-string  1.06s 到 0.8S
